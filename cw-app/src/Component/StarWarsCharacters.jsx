@@ -14,7 +14,7 @@ class StarWarsCharacters extends Component {
     loadData = async () => {
         const response = await fetch(' https://swapi.co/api/people/ ')
         const json = await response.json();
-        console.log(json.results)
+        console.log(json.results) // make sure you're actually checking this log
         this.setState({ listOfChracters: json.results })
     }
     render() {

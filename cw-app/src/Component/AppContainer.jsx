@@ -10,6 +10,8 @@ class AppContainer extends Component {
 
         }
     }
+    // looks like you don't have path's for your routes - a path is what associates a route and a link
+    // also you should only have one Router element
     render() {
         return (
             <div>

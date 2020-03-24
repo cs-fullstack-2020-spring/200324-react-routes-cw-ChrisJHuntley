@@ -1,4 +1,6 @@
 # 20-03-24 React Routes CW
+#### Looks like you didn't make any comments. Check out my comments in all three of your component files.
+#### Score : 2/5
 Set Up
 - Create a new react app called `cw-app`
 - Create a class based component called `AppContainer` with the text `React Routes CW`
